@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "chaosclient",
+  "version": "${version}",
+  "name": "ChaosClient",
+  "description": "Modular client utilities for Minecraft 26.2.",
+  "authors": ["ChaosClient"],
+  "environment": "client",
+  "entrypoints": {
+    "main": ["dev.chaosclient.ChaosClient"],
+    "client": ["dev.chaosclient.ChaosClientClient"]
+  },
+  "mixins": ["chaosclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

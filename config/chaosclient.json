@@ -1,0 +1,25 @@
+{
+  "enabled": {
+    "ESP": true, "XRAY": false, "FULLBRIGHT": true, "FREECAM": false,
+    "FLY": false, "SPEED": false, "NO_FALL": true, "NO_SLOW": true,
+    "SPRINT": true, "STEP": false, "KILLAURA": false, "REACH": false,
+    "AUTO_TOTEM": true, "AUTO_ARMOR": true, "VELOCITY": false,
+    "SCAFFOLD": false, "SAFE_WALK": true, "FAST_PLACE": true,
+    "FAST_BREAK": true, "CHEST_STEALER": false, "AUTO_TOOL": true
+  },
+  "expanded": {},
+  "numbers": {
+    "auraReach": 4.5, "auraCps": 16.0, "auraTargets": 3.0,
+    "reachDistance": 4.5, "flySpeed": 0.8, "speedMultiplier": 1.6
+  },
+  "booleans": {
+    "espPlayers": true, "espMobs": true, "espItems": true,
+    "espStorage": true, "espSpawners": true, "espSulfurCubes": true
+  },
+  "modes": { "auraSort": "DISTANCE", "espBox": "OUTLINE" },
+  "keybinds": {},
+  "colors": { "ESP": -11622657, "XRAY": -16711681 },
+  "guiX": 24,
+  "guiY": 24,
+  "selectedCategory": "Render"
+}
